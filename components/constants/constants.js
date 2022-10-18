@@ -15,6 +15,19 @@ export const projects = [
     id: 0,
   },
   {
+    title: 'Amazon Simulation',
+    description: "This application is just a simple Amazon system simulation. Users will have LogIn with their google account, able to purchase items with Stripe Checkout",
+      image: '/images/6.png',
+      tags: ['/images/Next.png',
+      '/images/tailwind.png',
+      '/images/fire.png',
+      '/images/nextauth.jpg',
+      '/images/stripe.png'],
+    source: 'https://github.com/willyhuang18/Amazon2.0',
+    visit: 'https://amazon-simulation.vercel.app/',
+    id: 1,
+  },
+  {
     title: 'Perfect-Cup',
     description:"This app is build for understand that Ingredient transparency is vital as health and wellness are more emphasized in today's society. Perfect Cup provides an informative platform for coffee lovers to create their own Perfect Cup while keeping them informed about the origin of a variety of coffee ingredients.",
     image: '/images/2.png',
@@ -26,7 +39,7 @@ export const projects = [
   ],
     source: 'https://github.com/MChambersIV/Perfect-Cup',
     visit: 'https://powerful-wildwood-54385.herokuapp.com/',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Instagram Simulation',
@@ -39,7 +52,7 @@ export const projects = [
       '/images/recoil.png'],
     source: 'https://github.com/willyhuang18/red',
     visit: 'https://red-eight.vercel.app/',
-    id: 2,
+    id: 3,
   },
   
   {
@@ -52,7 +65,7 @@ export const projects = [
   ],
     source: 'https://github.com/willyhuang18/CryptoNFT',
     visit: 'https://github.com/willyhuang18/CryptoNFT',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Todo-List',
@@ -64,7 +77,7 @@ export const projects = [
     '/images/Express.png','/images/ejs.png'],
     source: 'https://github.com/willyhuang18/Todo-list',
     visit: 'https://damp-sands-21922.herokuapp.com/',
-    id: 4,
+    id: 5,
   },
 ];
 
