@@ -19,7 +19,7 @@ function Skills() {
       <h3 className="absolute tracking-[3px] uppercase top-36 text-gray-500 text-sm">
         Hover over a skill for current proficiency
       </h3>
-      <div className="grid grid-cols-4 gap-5">
+      <div className="grid grid-cols-4 gap-5 pt-40">
         {skills.slice(0, skills.length / 2).map((skill, i) => (
           <Skill key={i} skill={skill} />
         ))}

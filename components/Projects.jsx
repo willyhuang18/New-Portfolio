@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from "framer-motion";
 import { projects, ExternalLinks} from './constants/constants';
 
+
 function Projects() {
   return (
     <motion.div 
@@ -16,7 +17,7 @@ function Projects() {
     max-w-full  justify-evenly mx-auto items-center z-0'
     >
     <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>Projects</h3> 
-    <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20
+    <div className='relative w-full  flex overflow-x-scroll  snap-x snap-mandatory z-20
     scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'>
         {projects.map(({id,image, title, description, tags, source,visit}) => 
         <div key={id} className='w-screen flex-shrink-0 snap-center flex flex-col 
@@ -31,7 +32,7 @@ function Projects() {
             viewport={{once: true}}
             src={image}
              alt="" 
-             className='md:w-95 md:h-95 xl:w-[1000px] xl:h-[600px]'/>
+             className='md:w-95 md:h-95 xl:w-[600px] xl:h-[350px]'/>
             <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
                 <h4 className='text-4xl font-semibold text-center'>
                     <span className='underline decoration-[#F7AB0A]'>Case study {id + 1} of {projects.length}: </span>
@@ -44,8 +45,8 @@ function Projects() {
                 </div>
                 <p className='text-lg text-center md:text-left'>{description} </p>
                <div className='flex flex-row justify-center items-center space-x-4'>
-                <button href={visit} className="heroButton text-2xl">View</button>
-                <button href={source} className="heroButton text-2xl">Source</button>
+                <a href={visit}><button  className="heroButton text-2xl">View</button></a>
+                <a href={source}><button  className="heroButton text-2xl">Source</button></a>
                </div>
             </div>
         </div>

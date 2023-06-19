@@ -100,6 +100,52 @@ export const projects = [
 
 export const Experience = [
   {
+    company: "Northeastern University",
+    jobTitle: "Student",
+    image: "/images/NEU.png",
+    points: [
+      "Relevant Curriculum: Data Structures, Algorithms, Object-Oriented Design, Computer System, Web Development, Database",
+    ],
+    skill: [
+      "/images/Java.png",
+      "/images/JS.png",
+      "/images/html.png",
+      "/images/sql.png",
+    ],
+    date: "09/05/2023 - Present",
+  },
+  {
+    company: "Dization",
+    jobTitle: "Software Engineer Intern",
+    image: "/images/dization.jpg",
+    points: [
+      "Full stack development on the Software Engineer team: improved the reviewal process of existing web application onboarding to the analytics platform.",
+    ],
+    skill: [
+      "/images/PHP.png",
+      "/images/JS.png",
+      "/images/sql.png",
+    ],
+    date: "10/12/2022 - 04/01/2023",
+  },
+
+  {
+    company: "Udemy",
+    jobTitle: "Udemy Web Development Bootcamp",
+    image: "/images/Udemy.png",
+    points: [
+      "Attend an Online intensive program focused on gaining web developer programming skills",
+      "Develop web applications along with the instructor",
+    ],
+    skill: [
+      "/images/mongo.png",
+      "/images/JS.png",
+      "/images/node.jpg",
+      "/images/Express.png",
+    ],
+    date: "09/02/2021 - 11/01/2021",
+  },
+  {
     company: "Berkeley Extension Coding Bootcamp",
     jobTitle: "University of California, Berkeley Extension Coding Bootcamp",
     image: "/images/Berkeley.png",
@@ -119,22 +165,7 @@ export const Experience = [
     ],
     date: "12/14/2021 - 03/14/2022",
   },
-  {
-    company: "Udemy",
-    jobTitle: "Udemy Web Development Bootcamp",
-    image: "/images/Udemy.png",
-    points: [
-      "Attend an Online intensive program focused on gaining web developer programming skills",
-      "Develop web applications along with the instructor",
-    ],
-    skill: [
-      "/images/mongo.png",
-      "/images/JS.png",
-      "/images/node.jpg",
-      "/images/Express.png",
-    ],
-    date: "09/02/2021 - 11/01/2021",
-  },
+  
 ];
 
 export const Image = [
@@ -143,6 +174,32 @@ export const Image = [
 ];
 
 export const Skill = [
+  {
+    image: "/images/Java.png",
+
+    progress: "75",
+  },
+  {
+    image:"/images/PHP.png",
+    progress:"75",
+  },
+  {
+    image: "/images/JS.png",
+
+    progress: "75",
+  },{
+    image: "/images/html.png",
+    progress: "75",
+  },
+  {
+    image: "/images/css.png",
+
+    progress: "75",
+  },  
+  {
+    image: "/images/sql.png",
+    progress: "50",
+  },
   {
     image: "/images/recoil.png",
     progress: "25",
@@ -155,11 +212,7 @@ export const Skill = [
     image: "/images/bootstrap.png",
     progress: "75",
   },
-  {
-    image: "/images/css.png",
-
-    progress: "75",
-  },
+ 
   {
     image: "/images/Express.png",
 
@@ -170,25 +223,13 @@ export const Skill = [
 
     progress: "50",
   },
-  {
-    image: "/images/html.png",
-    progress: "75",
-  },
-  {
-    image: "/images/Java.png",
 
-    progress: "75",
-  },
   {
     image: "/images/fire.png",
 
     progress: "50",
   },
-  {
-    image: "/images/JS.png",
 
-    progress: "75",
-  },
   {
     image: "/images/mongo.png",
 
@@ -219,10 +260,7 @@ export const Skill = [
     image: "/images/tailwind.png",
     progress: "50",
   },
-  {
-    image: "/images/sql.png",
-    progress: "50",
-  },
+
   {
     image: "/images/node.jpg",
     progress: "50",

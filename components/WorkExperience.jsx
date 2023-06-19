@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import ExperienceCard from "./ExperienceCard";
 import { Experience } from './constants/constants';
 
-
 function WorkExperience() {
   return (
     <motion.div
@@ -15,9 +14,10 @@ function WorkExperience() {
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Experience
       </h3>
-      <div className="w-full flex space-x-5  p-10 snap-x snap-mandatory" >
-        {Experience?.map(({id,image,company,skill,points}) => (
-          <ExperienceCard key={id} image={image} company={company} skill={skill} points={points} />
+      <div className="w-full flex overflow-x-scroll overflow-y-hidden space-x-5  p-10 snap-x snap-mandatory z-20
+      scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80" >
+        {Experience?.map(({id,image,company,jobTitle,skill,points,date}) => (
+          <ExperienceCard key={id} image={image} company={company} jobTitle={jobTitle} skill={skill} points={points} date={date}/>
         ))}
       </div>
     </motion.div>
