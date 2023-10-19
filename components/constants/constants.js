@@ -100,26 +100,14 @@ export const projects = [
 
 export const Experience = [
   {
-    company: "Northeastern University",
-    jobTitle: "Student",
-    image: "/images/NEU.png",
-    points: [
-      "Relevant Curriculum: Data Structures, Algorithms, Object-Oriented Design, Computer System, Web Development, Database",
-    ],
-    skill: [
-      "/images/Java.png",
-      "/images/JS.png",
-      "/images/html.png",
-      "/images/sql.png",
-    ],
-    date: "09/05/2023 - Present",
-  },
-  {
     company: "Dization",
     jobTitle: "Software Engineer Intern",
     image: "/images/dization.jpg",
     points: [
-      "Full stack development on the Software Engineer team: improved the reviewal process of existing web application onboarding to the analytics platform.",
+      "Utilized PHP, SQL, JavaScript, and AWS to significantly enhance the review process for web applications",
+      "Demonstrated adaptability in a dynamic startup environment, consistently meeting product deadlines",
+      "Played a pivotal role in strategic UI/UX decision-making through effective collaboration with marketing teams.",
+      "Took the initiative to spearhead the development of user interfaces for critical functions"
     ],
     skill: [
       "/images/PHP.png",
@@ -128,22 +116,37 @@ export const Experience = [
     ],
     date: "10/12/2022 - 04/01/2023",
   },
-
   {
-    company: "Udemy",
-    jobTitle: "Udemy Web Development Bootcamp",
-    image: "/images/Udemy.png",
+    company: "Queeery",
+    jobTitle: "Software Engineer Intern",
+    image: "/images/queery.jpg",
     points: [
-      "Attend an Online intensive program focused on gaining web developer programming skills",
-      "Develop web applications along with the instructor",
+      "Utilized React (TSX) to enhance the user interface of Queeery’s platform.",
+      "Leveraged Supabase and PostgreSQL for effective database management",
+      "Employed Next.js for server-side rendering and Tailwind CSS for utility-first design to create responsive web pages.",
+      "Integrated Google Maps for location-based services and Twilio for communication services, enhancing Queeery’s platform functionality."
     ],
     skill: [
-      "/images/mongo.png",
-      "/images/JS.png",
-      "/images/node.jpg",
-      "/images/Express.png",
+      "/images/tailwind.png",
+      "/images/Next.png",
+      "/images/supa.jpg",
     ],
-    date: "09/02/2021 - 11/01/2021",
+    date: "10/15/2023 - Present",
+  },
+  {
+    company: "AfterFlea OS",
+    jobTitle: "Software Engineer Intern",
+    image: "/images/after.png",
+    points: [
+      "Develop high-quality UI using NextJS and React, ensuring smooth and optimal user experiences.",
+      "Utilize Docker in development and deployment processes acquainted with cloud computing platforms such as AWS",
+      "Collaborating across teams to translate technical and business requirements into digital interfaces, embodying Afterflea’s commitment to democratizing AI technology."
+    ],
+    skill: [
+      "/images/Next.png",
+      "/images/Docker.png",
+    ],
+    date: "10/06/2023 - Present",
   },
   {
     company: "Berkeley Extension Coding Bootcamp",
@@ -164,6 +167,60 @@ export const Experience = [
       "/images/JS.png",
     ],
     date: "12/14/2021 - 03/14/2022",
+  },
+  
+];
+export const Educations = [
+  {
+    company: "Northeastern University",
+    jobTitle: "MS: Computer Science",
+    image: "/images/NEU.png",
+    points: [
+      "Relevant Curriculum: Data Structures, Algorithms, Object-Oriented Design, Computer System, Web Development, Database",
+    ],
+    skill: [
+      "/images/Java.png",
+      "/images/JS.png",
+      "/images/html.png",
+      "/images/sql.png",
+    ],
+    date: "09/05/2023 - Present",
+  },
+  {
+    company: "Berkeley Extension Coding Bootcamp",
+    jobTitle: "University of California, Berkeley Extension Coding Bootcamp",
+    image: "/images/Berkeley.png",
+    points: [
+      "Attend a 12-week intensive program focused on gaining technical programming skills",
+      "Developing web applications with other participants.",
+      "Connect with a powerful network of engaged instructors, TAs, peers and alumni.",
+      "Work with an admissions advisor who will prepare you for your boot camp.",
+    ],
+    skill: [
+      "/images/mongo.png",
+      "/images/Express.png",
+      "/images/react.png",
+      "/images/node.jpg",
+      "/images/sql.png",
+      "/images/JS.png",
+    ],
+    date: "12/14/2021 - 03/14/2022",
+  },
+  {
+    company: "Udemy",
+    jobTitle: "Udemy Web Development Bootcamp",
+    image: "/images/Udemy.png",
+    points: [
+      "Attend an Online intensive program focused on gaining web developer programming skills",
+      "Develop web applications along with the instructor",
+    ],
+    skill: [
+      "/images/mongo.png",
+      "/images/JS.png",
+      "/images/node.jpg",
+      "/images/Express.png",
+    ],
+    date: "09/02/2021 - 11/01/2021",
   },
   
 ];

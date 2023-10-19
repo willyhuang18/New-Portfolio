@@ -34,7 +34,13 @@ function About({ }) {
           <span className="underline decoration-[#F7AB0A]">little</span>{" "}
           background
         </h4>
-        <p className="text-base">My name is  Willy. I am looking for a fulltime/intern Backend / Full-Stack Developer position.             I am Chinese and moved to the USA in 2013. I graduated from San Jose State University with,             a major in Behavioral Science, with a minor in Business in 2021. Right after graduating from SJSU, one of my             computer science friends took me to the Science and Technology Exhibition, from there I saw a lot of             products created by programming and got attracted to coding.              And then I joined the University of California,Berkeley Extension, Coding BootCamp.             I had to Attend a 12-week intensive program focused on gaining technical programming skills and              developing web applications with other participants.              After the Bootcamp, I also learned more about full stack from Learning Site called Udemy.              Right now, I am self-taught Java and using it for Algorithms and data structure.</p>
+        <p className="text-base">As a passionate and fast-learning Software Engineer Intern, I am currently pursuing my Master’s degree in Computer Science at Northeastern University. 
+        Known for my pleasant demeanor, I have been able to effectively collaborate with my peers and mentors. 
+        My academic journey at the renowned Khoury College of Computer Sciences has been marked by a deep dive into algorithms, programming, and software design. 
+        The practical experience gained from my internships has allowed me to apply classroom knowledge to real-world problems, providing a deeper understanding of the field. 
+        I am driven by a strong desire to become a better engineer, aiming to acquire all the best practices and standards and leverage this knowledge in my day-to-day work. 
+        My commitment to continuous learning and improvement is a testament to my dedication to my craft.</p>
+        
       </div>
     </motion.div>
   );

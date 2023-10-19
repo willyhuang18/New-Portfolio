@@ -7,6 +7,7 @@ import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import ContactMe from "../components/ContactMe";
 import Link from "next/link";
+import Education from "../components/Education";
 
 const Home = ({}) => {
   return (
@@ -23,7 +24,9 @@ const Home = ({}) => {
       <section id="about" className="snap-center">
         <About  />
       </section>
-
+      <section id="education" className="snap-start">
+        <Education  />
+      </section>
       <section id="experience" className="snap-center">
         <WorkExperience  />
       </section>
@@ -31,6 +34,7 @@ const Home = ({}) => {
       <section id="skills" className="snap-start">
         <Skills  />
       </section>
+      
 
       <section id="projects" className="snap-start">
         <Projects  />
@@ -44,7 +48,7 @@ const Home = ({}) => {
           <div className="flex items-center justify-center">
             <img
               className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer"
-              src="https://lh3.googleusercontent.com/a-/ACNPEu8eJeRtqn3pJZxS5MREMxEKSecozMCGSYQgG23nog=s288-p-rw-no"
+              src="/images/unnamed.jpg"
             />
           </div>
         </footer>

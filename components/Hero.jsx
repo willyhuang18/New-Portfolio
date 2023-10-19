@@ -16,7 +16,7 @@ function Hero() {
 
       <img
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
-        src="/images/profile2.jpg"
+        src="/images/profile.jpg"
         alt=""
       />
       <div className="z-20">
@@ -30,6 +30,9 @@ function Hero() {
         <div className="pt-5">
           <Link href="#about">
             <button className="heroButton">About</button>
+          </Link>
+          <Link href="#education">
+            <button className="heroButton">Education</button>
           </Link>
           <Link href="#experience">
             <button className="heroButton">Experience</button>
