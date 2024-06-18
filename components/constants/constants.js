@@ -19,7 +19,7 @@ export const projects = [
   {
     title: "Amazon Simulation",
     description:
-      "Utilized front-end technologies such as TailWindCSS, and Next.JS to create an intuitive and user-friendly interface. Designed the simulation of the Amazon shopping experience such as product detail pages and search, with Stripe .Integrated with Firebase to access real product data and pricing0 information",
+      "Utilized front-end technologies such as TailWindCSS, and Next.JS to create an intuitive and user-friendly interface. Designed the simulation of the Amazon shopping experience such as product detail pages and search, with Stripe .Integrated with Firebase to access real product data and pricing information",
     image: "/images/6.png",
     tags: [
       "/images/Next.png",
