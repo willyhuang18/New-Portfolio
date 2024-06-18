@@ -201,10 +201,7 @@ export const Educations = [
       "Received valuable guidance from academic advisors, ensuring a smooth and successful academic journey.",
     ],
     skill: [
-      "/images/mongo.png",
       "/images/JS.png",
-      "/images/node.jpg",
-      "/images/Express.png",
     ],
     date: "08/26/2016 - 08/01/2021",
   },
