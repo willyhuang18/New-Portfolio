@@ -19,7 +19,7 @@ export const projects = [
   {
     title: "Amazon Simulation",
     description:
-      "This application is just a simple Amazon system simulation. Users will have LogIn with their google account, able to purchase items with Stripe Checkout。If you want to purchase the items, please go to the Source code for free credit card info",
+      "Utilized front-end technologies such as TailWindCSS, and Next.JS to create an intuitive and user-friendly interface. Designed the simulation of the Amazon shopping experience such as product detail pages and search, with Stripe .Integrated with Firebase to access real product data and pricing0 information",
     image: "/images/6.png",
     tags: [
       "/images/Next.png",
@@ -51,7 +51,7 @@ export const projects = [
   {
     title: "Instagram Simulation",
     description:
-      "This application is just a simple Instagram system simulation. Users will have access to their google account, which can be able to login with their google account",
+      "Utilized front-end technologies such as TailWindCSS, Next.JS, and Recoil to create an intuitive and user-friendly UI. Includes profile pages, the ability to upload photos and videos, and social interactions (likes, comments, follows).Integrated with Firebase to access user data and content",
     image: "/images/3.png",
     tags: [
       "/images/Next.png",
@@ -100,23 +100,6 @@ export const projects = [
 
 export const Experience = [
   {
-    company: "Dization",
-    jobTitle: "Software Engineer Intern",
-    image: "/images/dization.jpg",
-    points: [
-      "Utilized PHP, SQL, JavaScript, and AWS to significantly enhance the review process for web applications",
-      "Demonstrated adaptability in a dynamic startup environment, consistently meeting product deadlines",
-      "Played a pivotal role in strategic UI/UX decision-making through effective collaboration with marketing teams.",
-      "Took the initiative to spearhead the development of user interfaces for critical functions"
-    ],
-    skill: [
-      "/images/PHP.png",
-      "/images/JS.png",
-      "/images/sql.png",
-    ],
-    date: "10/12/2022 - 04/01/2023",
-  },
-  {
     company: "Queeery",
     jobTitle: "Software Engineer Intern",
     image: "/images/queery.jpg",
@@ -134,19 +117,21 @@ export const Experience = [
     date: "10/15/2023 - Present",
   },
   {
-    company: "AfterFlea OS",
+    company: "Dization",
     jobTitle: "Software Engineer Intern",
-    image: "/images/after.png",
+    image: "/images/dization.jpg",
     points: [
-      "Develop high-quality UI using NextJS and React, ensuring smooth and optimal user experiences.",
-      "Utilize Docker in development and deployment processes acquainted with cloud computing platforms such as AWS",
-      "Collaborating across teams to translate technical and business requirements into digital interfaces, embodying Afterflea’s commitment to democratizing AI technology."
+      "Utilized PHP, SQL, JavaScript, and AWS to significantly enhance the review process for web applications",
+      "Demonstrated adaptability in a dynamic startup environment, consistently meeting product deadlines",
+      "Played a pivotal role in strategic UI/UX decision-making through effective collaboration with marketing teams.",
+      "Took the initiative to spearhead the development of user interfaces for critical functions"
     ],
     skill: [
-      "/images/Next.png",
-      "/images/Docker.png",
+      "/images/PHP.png",
+      "/images/JS.png",
+      "/images/sql.png",
     ],
-    date: "10/06/2023 - Present",
+    date: "10/12/2022 - 04/01/2023",
   },
   {
     company: "Berkeley Extension Coding Bootcamp",
@@ -207,12 +192,13 @@ export const Educations = [
     date: "12/14/2021 - 03/14/2022",
   },
   {
-    company: "Udemy",
-    jobTitle: "Udemy Web Development Bootcamp",
-    image: "/images/Udemy.png",
+    company: "San Jose State University",
+    jobTitle: "Student",
+    image: "/images/SJSU.png",
     points: [
-      "Attend an Online intensive program focused on gaining web developer programming skills",
-      "Develop web applications along with the instructor",
+      "Conducted numerous research projects, enhancing practical skills in data collection, analysis, and interpretation.",
+      "Connected with a network of professors, peers, and alumni, fostering a collaborative learning environment.",
+      "Received valuable guidance from academic advisors, ensuring a smooth and successful academic journey.",
     ],
     skill: [
       "/images/mongo.png",
@@ -220,7 +206,7 @@ export const Educations = [
       "/images/node.jpg",
       "/images/Express.png",
     ],
-    date: "09/02/2021 - 11/01/2021",
+    date: "08/26/2016 - 08/01/2021",
   },
   
 ];
