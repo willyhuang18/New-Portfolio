@@ -4,7 +4,7 @@ export const projects = [
   {
     title: "Ignite",
     description:
-      "This APP is build for Maintaining a strong and healthy relationship can be a challenge when life gets busy, and as we grow and change as individuals. We created Ignite to help couples connect, communicate, and find new ways to make one another feel loved.",
+      ["This APP is build for Maintaining a strong and healthy relationship can be a challenge when life gets busy, and as we grow and change as individuals. We created Ignite to help couples connect, communicate, and find new ways to make one another feel loved.",],
     image: "/images/1.png",
     tags: [
       "/images/mongo.png",
@@ -18,8 +18,11 @@ export const projects = [
   },
   {
     title: "Amazon Simulation",
-    description:
-      "Utilized front-end technologies such as TailWindCSS, and Next.JS to create an intuitive and user-friendly interface. Designed the simulation of the Amazon shopping experience such as product detail pages and search, with Stripe .Integrated with Firebase to access real product data and pricing information",
+    description: [
+      "Built an interactive UI with TailwindCSS and Next.js, replicating core Amazon features.",
+      "Developed product detail pages, and search functionality, and integrated Stripe for payment processing.",
+      "Utilized Firebase to dynamically display real product data and pricing for a complete e-commerce experience."
+    ],
     image: "/images/6.png",
     tags: [
       "/images/Next.png",
@@ -35,7 +38,7 @@ export const projects = [
   {
     title: "Perfect-Cup",
     description:
-      "This app is build for understand that Ingredient transparency is vital as health and wellness are more emphasized in today's society. Perfect Cup provides an informative platform for coffee lovers to create their own Perfect Cup while keeping them informed about the origin of a variety of coffee ingredients.",
+      ["This app is build for understand that Ingredient transparency is vital as health and wellness are more emphasized in today's society. Perfect Cup provides an informative platform for coffee lovers to create their own Perfect Cup while keeping them informed about the origin of a variety of coffee ingredients.",],
     image: "/images/2.png",
     tags: [
       "/images/sql.png",
@@ -50,8 +53,11 @@ export const projects = [
   },
   {
     title: "Instagram Simulation",
-    description:
-      "Utilized front-end technologies such as TailWindCSS, Next.JS, and Recoil to create an intuitive and user-friendly UI. Includes profile pages, the ability to upload photos and videos, and social interactions (likes, comments, follows).Integrated with Firebase to access user data and content",
+    description: [
+      "Utilized front-end technologies such as TailWindCSS, Next.JS, and Recoil to create an intuitive and user-friendly UI.",
+      "Includes profile pages, the ability to upload photos and videos, and social interactions (likes, comments, follows)",
+      "Integrated with Firebase to access user data and content."
+    ],
     image: "/images/3.png",
     tags: [
       "/images/Next.png",
@@ -67,8 +73,9 @@ export const projects = [
 
   {
     title: "NFT",
-    description:
+    description:[
       "This application is a Non-commercial application. This is generated for people interested in the Motoko language, for playing around with it. The code might not be perfect. This NFT application connects with the RC-Token, the user is able to CREATE, BUY, SELL, and MINT the NFTs.",
+    ],
     image: "/images/5.png",
     tags: [
       "/images/Motoko.jpg",
@@ -104,10 +111,10 @@ export const Experience = [
     jobTitle: "Software Engineer Intern",
     image: "/images/queery.jpg",
     points: [
-      "Utilized React (TSX) to enhance the user interface of Queeery’s platform.",
-      "Leveraged Supabase and PostgreSQL for effective database management",
-      "Employed Next.js for server-side rendering and Tailwind CSS for utility-first design to create responsive web pages.",
-      "Integrated Google Maps for location-based services and Twilio for communication services, enhancing Queeery’s platform functionality."
+      "Enhanced the platform’s UI using React (TSX) by adding avatar tasks, event pages, and event mapping.",
+      "Integrated Google Sign-In authentication and developed a profile page with Supabase for database management.",
+      "Utilized Next.js for server-side rendering and Tailwind CSS to create responsive, efficient web pages",
+      "Streamlined user interaction with new features like event creation and profile management, improving overall platform functionality."
     ],
     skill: [
       "/images/tailwind.png",
@@ -121,10 +128,10 @@ export const Experience = [
     jobTitle: "Software Engineer Intern",
     image: "/images/dization.jpg",
     points: [
-      "Utilized PHP, SQL, JavaScript, and AWS to significantly enhance the review process for web applications",
-      "Demonstrated adaptability in a dynamic startup environment, consistently meeting product deadlines",
-      "Played a pivotal role in strategic UI/UX decision-making through effective collaboration with marketing teams.",
-      "Took the initiative to spearhead the development of user interfaces for critical functions"
+      "Enhance task management for small business consulting applications with PHP, SQL, JavaScript, and AWS.",
+      "Designed dynamic task tabs with Bootstrap, enabling sorting and filtering by due date for efficient organization",
+      "Managed cloud storage and user data with AWS, ensuring scalable, secure access across devices.",
+      "Created an employee portal with authentication, allowing staff to securely access personal data and task assignments."
     ],
     skill: [
       "/images/PHP.png",

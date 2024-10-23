@@ -43,7 +43,11 @@ function Projects() {
                         <img className='h-10 w-15 rounded-full' key={i} src={technology} alt="" />
                     ))}
                 </div>
-                <p className='text-lg text-center md:text-left'>{description} </p>
+                <ul className="list-disc space-y-4 ml-5 text-lg ">
+                    {(Array.isArray(description) ? description : []).map((point, i) => (
+                        <li key={i}>{point}</li>
+                    ))}
+                </ul>
                <div className='flex flex-row justify-center items-center space-x-4'>
                 <a href={visit}><button  className="heroButton text-2xl">View</button></a>
                 <a href={source}><button  className="heroButton text-2xl">Source</button></a>
